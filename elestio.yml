@@ -1,0 +1,26 @@
+config:
+  runTime: "Hugo"
+  version: ""
+  framework: "Hugo"
+  buildCommand: "hugo"
+  buildDir: "public"
+  runCommand: "hugo serve"
+  installCommand: ""
+ports:
+  - protocol: "HTTPS"
+    targetProtocol: "HTTP"
+    listeningPort: "443"
+    targetPort: "1313"
+    public: true
+    path: "/"
+    isAuth: false
+    login: ""
+    password: ""
+exposedPorts:
+  - protocol: "HTTP"
+    hostPort: "1313"
+    containerPort: "80"
+    interface: "172.17.0.1"
+environments:
+  - key: "ENV"
+    value: "production"    
