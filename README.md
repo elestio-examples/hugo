@@ -6,7 +6,7 @@ Click on the button below to deploy this repository with CI/CD on Elestio:
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/hugo"><img src="static\images\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
-<img src="static\images\screenshot-1.jpg" alt="screenshot of the Hugo app" width="100%" />
+<img src="static\images\screenshot.jpg" alt="screenshot of the Hugo app" width="100%" />
 
 # Steps to clone this repository and run locally
 

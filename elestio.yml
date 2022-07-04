@@ -6,6 +6,8 @@ config:
   buildDir: "public"
   runCommand: "hugo serve"
   installCommand: ""
+  icon: "static/images/hugo.svg"
+  screenshot: "static/images/screenshot.jpg"
 ports:
   - protocol: "HTTPS"
     targetProtocol: "HTTP"
@@ -25,3 +27,6 @@ exposedPorts:
 environments:
   - key: "ENV"
     value: "production"    
+webUI:
+  - url: "https://[CI_CD_DOMAIN]"
+    label: "Website"    
